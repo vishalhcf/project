@@ -1,0 +1,307 @@
+:root {
+	--primary-color: rgb(228, 121, 205);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial' , sans-serif;
+	background: #000;
+	color: #000000;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h1, h2, h3, h4 {
+	color: #f9f7f721;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 70%;
+}
+
+.showcase {
+	width: 100%;
+	height: 193vh;
+	position: left;
+	background: url('https://cdn.wowowhome.com/photos/2018/12/modern-cliff-house-by-mccall-design-and-planning-38_2.jpg');
+	border-bottom: 1px solid #000000;
+	text-indent: 4px;
+}
+
+.line{
+	width: 300px;
+	height: 1vh;
+	background:navy;
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+.showcase-top {
+	position: absolute;
+	height: 200px;
+	padding-left: 260px;
+}
+
+.showcase-top img {
+	width: 170px;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	border-bottom: 0px solid #000000;
+}
+
+.lets-connect {
+	position: absolute;
+	height: 500px;
+	padding-left: 400px;
+}
+
+.lets-connect img {
+	width: 100px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	border-bottom: 0px solid #000000;
+}
+
+.lets-connect2 {
+	position: absolute;
+	height: 500px;
+	padding-left: 400px;
+}
+
+.lets-connect2 img {
+	width: 100px;
+	position: absolute;
+	top: 70%;
+	left: 300%;
+	transform: translate( -50%, -50%);
+	border-bottom: 0px solid #000000;
+}
+
+nav {
+	float: right;
+	padding-top: 30px;
+	padding-right: 50px;
+}
+
+.btn {
+	display: inline-block;
+	background: var(--primary-color);
+	text-align: center;
+	border : none;
+	cursor: pointer;
+	
+	margin-right: 0.5rem;
+	outline: none;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+	border-radius: 5px;
+	transition: background-color .4s;
+	padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-rounded {
+	border-radius: 10px;
+}
+
+.btn-x1 {
+	font-size: 1rem;
+	padding: 0.6rem 1.3rem;
+	text-transform: uppercase; 
+}
+
+.search-box {
+	position: center;
+	height: 60px;
+}
+
+input {
+	height: 49px;
+	width: 550px;
+	border-radius: 110px;
+	padding: 0px 50px;
+}
+
+.enjoy{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	padding: 120px 10%;
+	padding-left: 10px;
+	margin-bottom: 0;
+	background:url('https://i.pinimg.com/originals/59/dc/76/59dc76dd9c0f7834b12b55d1d7cd4c7e.jpg');
+	color: #ffffff;
+	display: block;
+	border-bottom: 8px solid #000000; 
+}
+
+.enjoy img{
+	width: 290px;
+	position: absolute;
+	top: 60%;
+	left: 70%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.Watch-offline {
+	font-size: 30px;
+	text-align: justify;
+	position: relative;
+	padding: 30px 10%;
+	margin-bottom: 0;
+	margin-left: 20px;
+	background: url('https://th.bing.com/th/id/OIP.RLOEyFA_ENU1cw7RqvfIMwHaEK?pid=ImgDet&rs=1');;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;
+}
+
+.Watch-offline img {
+	width: 220px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.watch-everywhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 220px;
+	margin-bottom: 0;
+	background:url('https://th.bing.com/th/id/OIP.R3a82bjbReywnfdiScHoPAHaHa?pid=ImgDet&rs=1');;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;	
+}
+
+.watch-everywhere img {
+	width: 270px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+.watch-somewhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 220px;
+	margin-bottom: 0;
+	background:url('https://th.bing.com/th/id/OIP.mjGLfBqnQv1yIH23OkzNJAHaFi?pid=ImgDet&w=1600&h=1198&rs=1');;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;	
+}
+.watch-somewhere img {
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+.watch-elsewhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 220px;
+	margin-bottom: 0;
+	background:url('https://i.pinimg.com/originals/e4/18/4d/e4184d5d14b039a13e1021f440737710.png');;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;	
+}
+.watch-elsewhere img {
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+
+
+.ask-question {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.ask-question h1 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.ask-question button {
+	display: center;
+	text-align: center;
+	background-color: url('https://th.bing.com/th/id/OIP.mjGLfBqnQv1yIH23OkzNJAHaFi?pid=ImgDet&w=1600&h=1198&rs=1;');
+	height: 65px;
+	width: 400px;
+	font-size: 0.9rem;
+	padding: 0.3rem 0.5rem;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+.ask-question button:hover{
+	font-size: 20px;
+    border-radius: 50px;
+    border: 10px;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: 0.5em;
+}
+
+.page-down {
+	border-top: 20px;
+	background-color: url('https://th.bing.com/th/id/OIP.mjGLfBqnQv1yIH23OkzNJAHaFi?pid=ImgDet&w=1600&h=1198&rs=1;');;
+	font-size: 15px;
+	margin-bottom: 1.5rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 0.5rem;
+}
+.text-footer {
+    border-bottom: #f9f7f7;
+    background-color: #f9f7f7;
+    font-size: 14px;
+    grid-gap: 10rem;
+}
