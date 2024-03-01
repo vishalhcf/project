@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <!-- Simple Calculator using HTML, CSS, JAVASCRIPT -->
+    <div>
+        <table border="7">
+          <tr>
+            <th class="caltitle" colspan="4">Simple Calculator</th> <!-- The colspan attribute defines the number of columns a cell should span. -->
+          </tr>
+           <tr>
+              <td colspan="3"><input type="text" id="result"/></td>
+              <!-- clr() function will call clr to clear all value -->
+              <td class="pushable"><input class="front" type="button" value="c" onclick="clr()"/> </td>
+           </tr>
+           <tr>
+              <!-- create button and assign value to each button -->
+              <!-- inputFun("1") will call function inputFun to display value -->
+              <td class="pushable"><input class="front" type="button" value="1" onclick="inputFun('1')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="2" onclick="inputFun('2')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="3" onclick="inputFun('3')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="/" onclick="inputFun('/')"/> </td>
+           </tr>
+           <tr>
+              <td class="pushable"><input class="front" type="button" value="4" onclick="inputFun('4')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="5" onclick="inputFun('5')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="6" onclick="inputFun('6')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="-" onclick="inputFun('-')"/> </td>
+           </tr>
+           <tr>
+              <td class="pushable"><input class="front" type="button" value="7" onclick="inputFun('7')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="8" onclick="inputFun('8')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="9" onclick="inputFun('9')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="+" onclick="inputFun('+')"/> </td>
+           </tr>
+           <tr>
+              <td class="pushable"><input class="front" type="button" value="." onclick="inputFun('.')"/> </td>
+              <td class="pushable"><input class="front" type="button" value="0" onclick="inputFun('0')"/> </td>
+              <!-- solve function call function solve to evaluate value -->
+              <td class="pushable"><input class="front" type="button" value="=" onclick="solve()"/> </td>
+              <td class="pushable"><input class="front" type="button" value="*" onclick="inputFun('*')"/> </td>
+           </tr>
+        </table>
+      </div>
+      <div>
+        Simple Calculator made by <a href="https://www.linkedin.com/in/chetannada/"
+            target="_blank" style="color:#0422cf;">vishal kumar<br>2210992536</a>
+      </div>
+</body>
+</html>
