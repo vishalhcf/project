@@ -1,0 +1,70 @@
+    /* Margin is used for whole calculator */
+    div{
+        margin: 20px 50px;
+    }
+    
+    /* Title of Simple calculator */
+    .caltitle{
+    margin-bottom: 10px;
+    text-align:center;
+    width: 450px;
+    color:black;
+    border: 3px solid rgb(236, 109, 5);
+    padding: 15px 2px;
+    font-size: 220%;
+    }
+
+    .caltitle:hover {
+        color:rgb(20, 4, 165)
+    }
+
+    /* Button CSS */
+    input[type="button"]
+    {
+    background-color:rgb(236, 109, 5);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(71, 71, 71);
+    width:100%;
+    cursor: pointer;
+    padding: 15px 25px;
+    font-size: 180%;
+    }
+
+    /* Button CSS Hover */
+    input[type="button"]:hover{
+        
+        background-color: #34ff3b;
+    }
+
+    /* Result Box CSS */
+    input[type="text"]
+    {
+    background-color:white;
+    border: 2px solid black;
+    width:96.5%;
+    padding: 12px 5px;
+    font-size: 200%;
+    }
+
+    /* Start 3D Button / Animated Button */
+    .pushable {
+        background: rgb(243, 149, 9);
+        border-radius: 12px;
+        border: 2px;
+        padding: 0px;
+        outline-offset: 1px;
+      }
+      .front {
+        display: block;
+        border-radius: 12px;
+        font-size: 1.15rem;
+        margin-top: 5px;
+        background: rgb(243, 149, 9);
+        transform: translateY(-6px);
+      }
+    
+      .pushable:active .front {
+        transform: translateY(-2px);
+      }
+      /* End 3D Button / Animated Button */
+    
